@@ -1,0 +1,4 @@
+<aura:component controller="NapiliCommunityController" implements="forceCommunity:availableForAllPageTypes" 
+                access="global" >
+	<aura:handler name="init" value="{!this}" action="{!c.redirectToProfile}" />
+</aura:component>
